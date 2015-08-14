@@ -13,10 +13,12 @@ body{
 	min-width:980px;
 	font-family:Microsoft YaHei,Tahoma,Verdana,Arial,Helvetica,sans-serif;
 }
+/* 取消自动变色
 body:hover {
 	color: #000000;
 	background: #ffffff;
 }
+*/
 body a{
 	-webkit-transition: color 0.5s linear;
 	-moz-transition: color 0.5s linear;
