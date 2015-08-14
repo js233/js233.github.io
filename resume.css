@@ -1,0 +1,122 @@
+*{padding:0;margin:0;}ul,li{list-style:none;list-style-position:outside;}img{border:none;vertical-align:middle;}a{color:#464646;text-decoration:none;cursor:pointer;}a:hover{text-decoration:underline;color:#11578b;}.underline{text-decoration:underline;}.left{float:left;}.right{float:right;}.clr{clear:both;overflow:hidden;height:0;width:0;}.clear{clear:both;}.center{text-align:center;}.margincenter{margin:0 auto;}.displaynone{display:none;}body div .bordernone{border:none;}textarea{overflow:auto;font-size:13px;}.orange{color:orange;}.red{color:red;}.blue{color:#023399;}.white{color:#fff;}.green{color:#66A925;}.pointer{cursor:pointer;}.height10{height:10px;overflow:hidden;}.height20{height:20px;overflow:hidden;}.height50{height:50px;}.pl9{padding-left:9px;}.pr9{padding-right:9px;}.pt9{padding-top:9px;}.pb9{padding-bottom:9px;}.plr9{padding:0 9px;}.ptb9{padding:9px 0;}.p9{padding:9px;}.ml9{margin-left:9px;}.mr9{margin-right:9px;}.mt9{margin-top:9px;}.mb9{margin-bottom:9px;}.mlr9{margin:0 9px;}.mtb9{margin:9px 0;}.m9{margin:9px;}.m0{margin:0;}.p0{padding:0;}.bold{font-weight:bold;}.size11{font-size:11px;}.size12{font-size:12px;}.size13{font-size:13px;}.size14{font-size:14px;}.size15{font-size:15px;}
+.size16{font-size:16px;}.size17{font-size:17px;}.size18{font-size:18px;}.color0{color:#000;}.color1{color:#111;}.color2{color:#222;}.color3{color:#333;}.color4{color:#444;}.color5{color:#555;}.color6{color:#666;}.color7{color:#777;}.color8{color:#888;}.color9{color:#999;}.colora{color:#aaa;}.colorb{color:#bbb;}.colorc{color:#ccc;}.colord{color:#ddd;}.colore{color:#eee;}.colorf{color:#fff;}.displaynone,.none{display:none;}.displayblock,.block{display:block;}.pointer{cursor:pointer;}.textc{text-align:center;}.textl{text-align:left;}
+.textr{text-align:right;}.textlr{text-align:justify;text-justify:inter-ideograph;}.texti9{text-indent:-9999px;}.absolute{position:absolute;}.relative{position:relative;width:100%;}table{width:100%;}.mytable{background-color:#DDDDDD;border-spacing:1px;border-collapse:separate;}.mytable td,.mytable tr{background-color:#fff;}.mytable td{padding:5px;}.mytable .thead td{background:#E8E8E8;color:#282828;height:35px;font-weight:bold;text-align:center;padding:0 2px;}
+
+body{
+	color:#000000;
+	background: #F5F5F5;
+	-webkit-transition: all 1.5s linear, color 0.5s linear;
+	-moz-transition: all 1.5s linear, color 0.5s linear;
+	-o-transition: all 1.5s linear, color 0.5s linear;
+	transition: all 1.5s linear, color 0.5s linear;
+	font-size:14px;
+	min-width:980px;
+	font-family:Microsoft YaHei,Tahoma,Verdana,Arial,Helvetica,sans-serif;
+}
+body:hover {
+	color:#ffffff;
+	background: #000000;
+}
+body a{
+	-webkit-transition: color 0.5s linear;
+	-moz-transition: color 0.5s linear;
+	-o-transition: color 0.5s linear;
+	transition: color 0.5s linear;
+}
+body:hover a{
+	color: #cccccc;
+}
+@media print{
+	.print{display:none}
+}
+.chooseColor{
+	position: fixed;
+	top: 20px;
+	left: 10px;	
+	padding: 1px;
+	background-color: #fa7b0e;
+}
+.chooseColor .colorBox{
+	width: 20px;
+	height: 20px;
+	cursor: pointer
+;}
+.chooseColor .black{
+	background-color: #000000;
+}
+.chooseColor .white{
+	background-color: #ffffff;
+}
+.gray{
+	color:#aaa;
+}
+p {
+    line-height: 1.8em;
+	text-align:justify;text-justify:inter-ideograph;
+}
+.error{
+	border:1px solid red;
+}
+.size24{
+	font-size:24px;
+}
+#menu li a:hover,#menu li a.active{
+	color:#F6F949;
+}
+.width980{
+	width:980px;
+	margin:0 auto;
+}
+
+#content{
+	padding:50px 0;
+}
+
+
+#previewpage2 #content{
+	padding:25px 10px;
+}
+
+.contdiv{
+	width:918px;
+	margin:0 auto;
+}
+
+.tdname{
+	width:220px;
+	text-align:right;
+	padding:12px 16px 12px 0;
+}
+
+.pt12{
+	padding-top: 12px;
+  vertical-align: top;
+}
+
+#previewcont{
+	width:830px;
+	margin:0 auto;
+}
+#previewcont .item{
+	padding:15px 0 15px;
+	border-bottom:2px solid #c5e7c6;
+}
+#previewpage2 #previewcont .item{
+	border-bottom:none;
+}
+#previewcont .t{
+	font-size:18px;
+	color:#fa7b0e;
+}
+#previewpage2 .zoomin,#previewpage .zoomin{
+	max-width:242px;
+}
+#previewpage2 table{
+	border-collapse:collapse;
+}
+#previewpage2 td{
+	padding:12px;
+}
+#previewpage2 .tdname{
+	width:208px;
+}

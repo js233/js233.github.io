@@ -1,0 +1,18 @@
+{
+	"h1": "个人信息",
+	"main": {
+		"name": "崔天泽",
+		"ID_Number": "32062119930708****(身份证)",
+		"phoneNum": "18200279299(大陆地区)",
+		"email": "1007381878@qq.com",
+		"sex": "男",
+		"birthday": "1993-7-8",
+		"hometown": "江苏省-南通",
+		"nation": "汉族",
+		"englishLevel": "CET-6",
+		"otherCertificate": "NCRE二级Web程序设计证书",
+		"otherLang": "能够翻译技术文档",
+		"graduationDate": "2015-7-1",
+		"photo": "http://cuitianze-picture.qiniudn.com/cuitianze.jpg"
+	}
+}

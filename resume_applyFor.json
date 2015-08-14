@@ -1,0 +1,31 @@
+{
+	"h1": "应聘信息",
+	"main":
+	[
+		{
+			"title": "应聘职位",
+			"content": "软件开发-Web前端开发方向",
+			"tag": "job"
+		},
+		{
+			"title": "感兴趣的部门",
+			"content": "一切立志成为地球上最好的UED的团队",
+			"tag": "department"
+		},
+		{
+			"title": "参加面试城市",
+			"content": "成都",
+			"tag": "interviewCity"
+		},
+		{
+			"title": "目标工作城市",
+			"content": "服从调配",
+			"tag": "adjust"
+		},
+		{
+			"title": "期望工作城市",
+			"content": "上海 杭州 深圳 北京 广州",
+			"tag": "workCity"
+		}
+	]
+}
