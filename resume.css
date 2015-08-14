@@ -3,8 +3,8 @@
 .textr{text-align:right;}.textlr{text-align:justify;text-justify:inter-ideograph;}.texti9{text-indent:-9999px;}.absolute{position:absolute;}.relative{position:relative;width:100%;}table{width:100%;}.mytable{background-color:#DDDDDD;border-spacing:1px;border-collapse:separate;}.mytable td,.mytable tr{background-color:#fff;}.mytable td{padding:5px;}.mytable .thead td{background:#E8E8E8;color:#282828;height:35px;font-weight:bold;text-align:center;padding:0 2px;}
 
 body{
-	color: #F5F5F5;
-	background: #000000;
+	color:#000000;
+	background:  #F5F5F5;
 	-webkit-transition: all 1.5s linear, color 0.5s linear;
 	-moz-transition: all 1.5s linear, color 0.5s linear;
 	-o-transition: all 1.5s linear, color 0.5s linear;
@@ -21,8 +21,7 @@ body:hover {
 */
 body a{
 	-webkit-transition: color 0.5s linear;
-	-moz-transition: color 0.5s linear;
-	-o-transition: color 0.5s linear;
+	-moz-transition: color 0.5s linear;	-o-transition: color 0.5s linear;
 	transition: color 0.5s linear;
 }
 body:hover a{
