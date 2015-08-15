@@ -2,17 +2,17 @@
 	"h1": "个人信息",
 	"main": {
 		"name": "姜珊",
-		"ID_Number": "32062119930708****(身份证)",
-		"phoneNum": "18200279299(大陆地区)",
-		"email": "1007381878@qq.com",
-		"sex": "男",
-		"birthday": "1993-7-8",
-		"hometown": "江苏省-南通",
+		"ID_Number": "420626199503284541(身份证)",
+		"phoneNum": "15008415676(大陆地区)",
+		"email": "709869233@qq.com",
+		"sex": "女",
+		"birthday": "1995-03-28",
+		"hometown": "湖南省-岳阳",
 		"nation": "汉族",
-		"englishLevel": "CET-6",
+		"englishLevel": "CET-4",
 		"otherCertificate": "NCRE二级Web程序设计证书",
 		"otherLang": "能够翻译技术文档",
-		"graduationDate": "2015-7-1",
+		"graduationDate": "2016-7-1",
 		"photo": "http://cuitianze-picture.qiniudn.com/cuitianze.jpg"
 	}
 }
