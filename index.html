@@ -6,7 +6,7 @@
 <link href="resume.css" type="text/css" rel="stylesheet">
 <style>
 	#newResumeBox {
-		opacity: 0; 
+		display: none;
 		position: fixed; 
 		top: 50%;
 		left: 50%;
@@ -18,7 +18,7 @@
 		font-size: 20px;
 		line-height: 36px; 
 		text-align: center; 
-		transition: all 3s ease-in-out 1s;
+		transition: all 5s ease-in-out 0.5s;
 		animation: showNewResumeBox 4s linear 0s;
 	}
 	@keyframes showNewResumeBox {
@@ -38,7 +38,7 @@
 	  <div>UI->产品经理，并不跨界，</div>
 	  <div>更能让我与用户走得更近。</div>
 	  <div>欢迎访问我的新简历。</div>
-	  <div><a href="">点击下载</a></div>
+	  <div><a href="" id="downloadBtn">点击下载</a></div>
 	  <div>谢谢您的阅览。</div>
 	</div>
 	<div id="content" class="width980">
@@ -172,6 +172,9 @@
 			})
 			setTimeout(function() {
 				document.getElementById("newResumeBox").style.display = 'block';
+				var btnColor = document.getElementById('downloadBtn').style.color;
+				var color1 = 255, color2 = 255, color3 = 255;
+				btnColor = 'rgba(' + color1 +',' + color2 + ',' + color3 + ',0.2)';
 			}, 500);
 		}
 	</script>
